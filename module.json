@@ -1,0 +1,15 @@
+{
+	"id": "ValombreuseIV",
+	"title": "Valombreuse l'Initiation de Velar",
+	"description": "Un module qui permet de découvrir le monde de Valombreuse à travers le scénario d'initition L'Initaition de Velar",
+	"authors": [
+		{
+			"name": "SEG91"
+		}
+	],
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10"
+	}
+}
