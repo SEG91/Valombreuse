@@ -1,0 +1,57 @@
+{
+	"id": "ValombreuseIV",
+	"title": "Valombreuse l'Initiation de Velar",
+	"description": "Un module qui permet de découvrir le monde de Valombreuse à travers le scénario d'initition L'Initaition de Velar",
+	"authors": [
+		{
+			"name": "SEG91"
+		}
+	],
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10"
+	},
+	"packs": [
+		{
+			"name": "aptitudes-speciales-valombreuse",
+			"system": "dnd5e",
+			"label": "Aptitudes Spéciales (Valombreuse)",
+			"path": "packs/aptitudes-speciales-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "classes-valombreuse",
+			"system": "dnd5e",
+			"label": "Classes (Valombreuse)",
+			"path": "packs/classes-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "dons-valombreuse",
+			"system": "dnd5e",
+			"label": "Dons (Valombreuse)",
+			"path": "packs/dons-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "lignee-valombreuse",
+			"system": "dnd5e",
+			"label": "Lignée (Valombreuse)",
+			"path": "packs/lignee-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "magie-du-sang-valombreuse",
+			"system": "dnd5e",
+			"label": "Magie du Sang (Valombreuse)",
+			"path": "packs/magie-du-sang-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		}
+	]
+}
