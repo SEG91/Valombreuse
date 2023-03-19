@@ -15,6 +15,7 @@
 	"packs": [
 		{
 			"name": "aptitudes-speciales-valombreuse",
+			"system": "dnd5e",
 			"label": "Aptitudes Spéciales (Valombreuse)",
 			"path": "packs/aptitudes-speciales-valombreuse.db",
 			"entity": "Item",
@@ -22,6 +23,7 @@
 		},
 		{
 			"name": "classes-valombreuse",
+			"system": "dnd5e",
 			"label": "Classes (Valombreuse)",
 			"path": "packs/classes-valombreuse.db",
 			"entity": "Item",
@@ -29,6 +31,7 @@
 		},
 		{
 			"name": "dons-valombreuse",
+			"system": "dnd5e",
 			"label": "Dons (Valombreuse)",
 			"path": "packs/dons-valombreuse.db",
 			"entity": "Item",
@@ -36,6 +39,7 @@
 		},
 		{
 			"name": "lignee-valombreuse",
+			"system": "dnd5e",
 			"label": "Lignée (Valombreuse)",
 			"path": "packs/lignee-valombreuse.db",
 			"entity": "Item",
@@ -43,6 +47,7 @@
 		},
 		{
 			"name": "magie-du-sang-valombreuse",
+			"system": "dnd5e",
 			"label": "Magie du Sang (Valombreuse)",
 			"path": "packs/magie-du-sang-valombreuse.db",
 			"entity": "Item",
