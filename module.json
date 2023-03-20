@@ -74,6 +74,14 @@
 			"path": "packs/magie-du-sang-valombreuse.db",
 			"entity": "Item",
 			"module": "ValombreuseIV"
+		},
+		{
+			"name": "pretires-valombreuse",
+			"system": "dnd5e",
+			"label": "Prétirés (Valombreuse)",
+			"path": "packs/pretires-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
 		}
 	]
 }
