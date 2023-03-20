@@ -7,7 +7,7 @@
 			"name": "SEG91"
 		}
 	],
-	"version": "1.0.2",
+	"version": "1.0.3",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -31,6 +31,14 @@
     {
       "name": "SEG91",
       "url": "https://github.com/SEG91",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "fr.json",
       "flags": {}
     }
   ],
@@ -80,8 +88,11 @@
 			"system": "dnd5e",
 			"label": "Prétirés (Valombreuse)",
 			"path": "packs/pretires-valombreuse.db",
-			"entity": "Item",
+			"entity": "Actor",
 			"module": "ValombreuseIV"
 		}
-	]
+	],
+  "esmodules": [
+    "spellsschool.js"
+  ]
 }
