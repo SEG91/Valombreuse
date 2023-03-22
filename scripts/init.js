@@ -5,6 +5,8 @@ CONFIG.DND5E.spellSchools.PuissOurs = "Puissance de l'Ours";
 CONFIG.DND5E.spellSchools.ComNat = "Communion avec la Nature";
 CONFIG.DND5E.spellSchools.Ombre = "Domaine de l'Ombre";
 CONFIG.DND5E.spellSchools.Corrupt = "Domaine de la Corruption";
+CONFIG.DND5E.spellSchools.Meute = "Pouvoir de la Meute";
+CONFIG.DND5E.spellSchools.Alpha = "Domination de l'Alpha";
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
