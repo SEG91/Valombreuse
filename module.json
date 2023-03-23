@@ -7,7 +7,7 @@
 			"name": "SEG91"
 		}
 	],
-	"version": "1.0.7",
+	"version": "1.0.8",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -88,6 +88,14 @@
 			"system": "dnd5e",
 			"label": "Prétirés (Valombreuse)",
 			"path": "packs/pretires-valombreuse.db",
+			"entity": "Actor",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "faune-valombreuse",
+			"system": "dnd5e",
+			"label": "Faune (Valombreuse)",
+			"path": "packs/faune-valombreuse.db",
 			"entity": "Actor",
 			"module": "ValombreuseIV"
 		}
