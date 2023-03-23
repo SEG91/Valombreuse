@@ -90,6 +90,22 @@
 			"path": "packs/pretires-valombreuse.db",
 			"entity": "Actor",
 			"module": "ValombreuseIV"
+		},
+		{
+			"name": "capacite-de-creatures-valombreuse",
+			"system": "dnd5e",
+			"label": "Capacité de créatures (Valombreuse)",
+			"path": "packs/capacite-de-creatures-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "faune-valombreuse",
+			"system": "dnd5e",
+			"label": "Faune (Valombreuse)",
+			"path": "packs/faune-valombreuse.db",
+			"entity": "Actor",
+			"module": "ValombreuseIV"
 		}
 	],
   "esmodules": [
