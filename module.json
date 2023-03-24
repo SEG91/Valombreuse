@@ -7,7 +7,7 @@
 			"name": "SEG91"
 		}
 	],
-	"version": "1.0.9",
+	"version": "1.1.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -34,19 +34,11 @@
       "flags": {}
     }
   ],
-  "languages": [
-    {
-      "lang": "fr",
-      "name": "Français",
-      "path": "fr.json",
-      "flags": {}
-    }
-  ],
 	"packs": [
 		{
 			"name": "aptitudes-speciales-valombreuse",
 			"system": "dnd5e",
-			"label": "Aptitudes Spéciales (Valombreuse)",
+			"label": "Aptitudes Speciales (Valombreuse)",
 			"path": "packs/aptitudes-speciales-valombreuse.db",
 			"entity": "Item",
 			"module": "ValombreuseIV"
@@ -70,7 +62,7 @@
 		{
 			"name": "lignee-valombreuse",
 			"system": "dnd5e",
-			"label": "Lignée (Valombreuse)",
+			"label": "Lignee (Valombreuse)",
 			"path": "packs/lignee-valombreuse.db",
 			"entity": "Item",
 			"module": "ValombreuseIV"
@@ -86,7 +78,7 @@
 		{
 			"name": "pretires-valombreuse",
 			"system": "dnd5e",
-			"label": "Prétirés (Valombreuse)",
+			"label": "Pretires (Valombreuse)",
 			"path": "packs/pretires-valombreuse.db",
 			"entity": "Actor",
 			"module": "ValombreuseIV"
@@ -102,7 +94,7 @@
 		{
 			"name": "capacite-de-creatures-valombreuse",
 			"system": "dnd5e",
-			"label": "Capacités des créatures (Valombreuse)",
+			"label": "Capacite de creatures (Valombreuse)",
 			"path": "packs/capacite-de-creatures-valombreuse.db",
 			"entity": "Item",
 			"module": "ValombreuseIV"
