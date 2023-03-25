@@ -7,7 +7,7 @@
 			"name": "SEG91"
 		}
 	],
-	"version": "1.1.0",
+	"version": "1.1.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -96,6 +96,30 @@
 			"system": "dnd5e",
 			"label": "Capacite de creatures (Valombreuse)",
 			"path": "packs/capacite-de-creatures-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "systemes-de-lingenieur-valombreuse",
+			"system": "dnd5e",
+			"label": "Systemes de l'Ingenieur (Valombreuse)",
+			"path": "packs/systemes-de-lingenieur-valombreuse.db",
+			"entity": "Item",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "creatures-de-lingenieur-valombreuse",
+			"system": "dnd5e",
+			"label": "Creatures de l'Ingenieur (Valombreuse)",
+			"path": "packs/creatures-de-lingenieur-valombreuse.db",
+			"entity": "Actor",
+			"module": "ValombreuseIV"
+		},
+		{
+			"name": "inventions-valombreuse",
+			"system": "dnd5e",
+			"label": "Inventions de l'Ingenieur (Valombreuse)",
+			"path": "packs/inventions-valombreuse.db",
 			"entity": "Item",
 			"module": "ValombreuseIV"
 		}
