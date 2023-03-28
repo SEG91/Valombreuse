@@ -7,7 +7,7 @@
 			"name": "SEG91"
 		}
 	],
-	"version": "1.1.3",
+	"version": "1.1.4",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -115,14 +115,22 @@
 			"entity": "Actor",
 			"module": "ValombreuseIV"
 		},
-		{
-			"name": "inventions-valombreuse",
-			"system": "dnd5e",
-			"label": "Inventions de l'Ingenieur (Valombreuse)",
-			"path": "packs/inventions-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		}
+    {
+      "name": "inventions-valombreuse",
+      "system": "dnd5e",
+      "label": "Inventions de l'Ingenieur (Valombreuse)",
+      "path": "packs/inventions-valombreuse.db",
+      "entity": "Item",
+      "module": "ValombreuseIV"
+    },
+    {
+      "label": "Taroticum",
+      "type": "Cards",
+      "name": "taroticum",
+      "path": "packs/taroticum.db",
+      "system": "dnd5e",
+      "package": "ValombreuseIV"
+    }
 	],
   "esmodules": [
     "scripts/init.js"

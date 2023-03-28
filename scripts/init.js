@@ -9,6 +9,8 @@ CONFIG.DND5E.spellSchools.Meute = "Pouvoir de la Meute";
 CONFIG.DND5E.spellSchools.Alpha = "Domination de l'Alpha";
 CONFIG.DND5E.spellSchools.Vision = "Vision de l'Aigle";
 CONFIG.DND5E.spellSchools.Air = "Maîtrise de l'Air";
+CONFIG.DND5E.spellSchools.ForTau = "Force du Taureau ";
+CONFIG.DND5E.spellSchools.Harmonie = "Harmonie avec la Terre";
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
