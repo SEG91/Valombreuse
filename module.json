@@ -1,13 +1,15 @@
 {
-	"id": "ValombreuseIV",
-	"title": "Valombreuse l'Initiation de Velar",
-	"description": "Un module qui permet de découvrir le monde de Valombreuse à travers le scénario d'initition L'Initaition de Velar",
-	"authors": [
-		{
-			"name": "SEG91"
-		}
-	],
-	"version": "1.1.4",
+  "id": "ValombreuseIV",
+  "title": "Valombreuse l'Initiation de Velar",
+  "description": "Un module qui permet de dï¿½couvrir le monde de Valombreuse ï¿½ travers le scï¿½nario d'initition L'Initaition de Velar",
+  "authors": [
+    {
+      "name": "SEG91",
+      "url": "https://github.com/SEG91",
+      "flags": {}
+    }
+  ],
+  "version": "1.1.5",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -27,101 +29,105 @@
   "url": "https://github.com/SEG91/Valombreuse",
   "manifest": "https://raw.githubusercontent.com/SEG91/Valombreuse/main/module.json",
   "download": "https://github.com/SEG91/Valombreuse/archive/main.zip",
-  "authors": [
+  "packs": [
     {
-      "name": "SEG91",
-      "url": "https://github.com/SEG91",
+      "name": "aptitudes-speciales-valombreuse",
+      "system": "dnd5e",
+      "label": "Aptitudes Speciales (Valombreuse)",
+      "path": "packs/aptitudes-speciales-valombreuse.db",
+      "type": "Item",
+      "private": false,
       "flags": {}
-    }
-  ],
-	"packs": [
-		{
-			"name": "aptitudes-speciales-valombreuse",
-			"system": "dnd5e",
-			"label": "Aptitudes Speciales (Valombreuse)",
-			"path": "packs/aptitudes-speciales-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "classes-valombreuse",
-			"system": "dnd5e",
-			"label": "Classes (Valombreuse)",
-			"path": "packs/classes-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "dons-valombreuse",
-			"system": "dnd5e",
-			"label": "Dons (Valombreuse)",
-			"path": "packs/dons-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "lignee-valombreuse",
-			"system": "dnd5e",
-			"label": "Lignee (Valombreuse)",
-			"path": "packs/lignee-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "magie-du-sang-valombreuse",
-			"system": "dnd5e",
-			"label": "Magie du Sang (Valombreuse)",
-			"path": "packs/magie-du-sang-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "pretires-valombreuse",
-			"system": "dnd5e",
-			"label": "Pretires (Valombreuse)",
-			"path": "packs/pretires-valombreuse.db",
-			"entity": "Actor",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "faune-valombreuse",
-			"system": "dnd5e",
-			"label": "Faune (Valombreuse)",
-			"path": "packs/faune-valombreuse.db",
-			"entity": "Actor",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "capacite-de-creatures-valombreuse",
-			"system": "dnd5e",
-			"label": "Capacite de creatures (Valombreuse)",
-			"path": "packs/capacite-de-creatures-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "systemes-de-lingenieur-valombreuse",
-			"system": "dnd5e",
-			"label": "Systemes de l'Ingenieur (Valombreuse)",
-			"path": "packs/systemes-de-lingenieur-valombreuse.db",
-			"entity": "Item",
-			"module": "ValombreuseIV"
-		},
-		{
-			"name": "creatures-de-lingenieur-valombreuse",
-			"system": "dnd5e",
-			"label": "Creatures de l'Ingenieur (Valombreuse)",
-			"path": "packs/creatures-de-lingenieur-valombreuse.db",
-			"entity": "Actor",
-			"module": "ValombreuseIV"
-		},
+    },
+    {
+      "name": "classes-valombreuse",
+      "system": "dnd5e",
+      "label": "Classes (Valombreuse)",
+      "path": "packs/classes-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dons-valombreuse",
+      "system": "dnd5e",
+      "label": "Dons (Valombreuse)",
+      "path": "packs/dons-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "lignee-valombreuse",
+      "system": "dnd5e",
+      "label": "Lignee (Valombreuse)",
+      "path": "packs/lignee-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "magie-du-sang-valombreuse",
+      "system": "dnd5e",
+      "label": "Magie du Sang (Valombreuse)",
+      "path": "packs/magie-du-sang-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pretires-valombreuse",
+      "system": "dnd5e",
+      "label": "Pretires (Valombreuse)",
+      "path": "packs/pretires-valombreuse.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "faune-valombreuse",
+      "system": "dnd5e",
+      "label": "Faune (Valombreuse)",
+      "path": "packs/faune-valombreuse.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "capacite-de-creatures-valombreuse",
+      "system": "dnd5e",
+      "label": "Capacite de creatures (Valombreuse)",
+      "path": "packs/capacite-de-creatures-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "systemes-de-lingenieur-valombreuse",
+      "system": "dnd5e",
+      "label": "Systemes de l'Ingenieur (Valombreuse)",
+      "path": "packs/systemes-de-lingenieur-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "creatures-de-lingenieur-valombreuse",
+      "system": "dnd5e",
+      "label": "Creatures de l'Ingenieur (Valombreuse)",
+      "path": "packs/creatures-de-lingenieur-valombreuse.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
     {
       "name": "inventions-valombreuse",
       "system": "dnd5e",
       "label": "Inventions de l'Ingenieur (Valombreuse)",
       "path": "packs/inventions-valombreuse.db",
-      "entity": "Item",
-      "module": "ValombreuseIV"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Taroticum",
@@ -129,9 +135,10 @@
       "name": "taroticum",
       "path": "packs/taroticum.db",
       "system": "dnd5e",
-      "package": "ValombreuseIV"
+      "private": false,
+      "flags": {}
     }
-	],
+  ],
   "esmodules": [
     "scripts/init.js"
   ]
