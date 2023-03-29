@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.1.6",
+  "version": "1.1.7",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -134,6 +134,33 @@
       "type": "Cards",
       "name": "taroticum",
       "path": "packs/taroticum.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "L'Initiation de Velar",
+      "type": "JournalEntry",
+      "name": "linitiation-de-velar",
+      "path": "packs/linitiation-de-velar.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Scène : L'Initiation de Velar",
+      "type": "Scene",
+      "name": "scene--linitiation-de-velar",
+      "path": "packs/scene--linitiation-de-velar.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "PNJ (Valombreuse)",
+      "type": "Actor",
+      "name": "pnj-valombreuse",
+      "path": "packs/pnj-valombreuse.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
