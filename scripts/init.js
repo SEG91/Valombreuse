@@ -11,6 +11,8 @@ CONFIG.DND5E.spellSchools.Vision = "Vision de l'Aigle";
 CONFIG.DND5E.spellSchools.Air = "Maîtrise de l'Air";
 CONFIG.DND5E.spellSchools.ForTau = "Force du Taureau ";
 CONFIG.DND5E.spellSchools.Harmonie = "Harmonie avec la Terre";
+CONFIG.DND5E.spellSchools.ASolaire = "Aura Solaire";
+CONFIG.DND5E.spellSchools.Helios = "Fils d'Hélios";
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
