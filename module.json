@@ -1,7 +1,7 @@
 {
   "id": "ValombreuseIV",
-  "title": "Valombreuse l'Initiation de Velar",
-  "description": "Un module qui permet de d�couvrir le monde de Valombreuse � travers le sc�nario d'initition L'Initaition de Velar",
+  "title": "Valombreuse In Sole Veritas",
+  "description": "Un module qui permet de d�couvrir le monde de Valombreuse � travers le sc�nario d'initition In Sole Veritas",
   "authors": [
     {
       "name": "SEG91",
@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.1.9",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -139,19 +139,19 @@
       "flags": {}
     },
     {
-      "label": "L'Initiation de Velar",
+      "label": "In Sole Veritas",
       "type": "JournalEntry",
-      "name": "linitiation-de-velar",
-      "path": "packs/linitiation-de-velar.db",
+      "name": "In-sole-veritas",
+      "path": "packs/in-sole-veritas.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
     },
     {
-      "label": "Scène : L'Initiation de Velar",
+      "label": "Scène : In Sole Veritas",
       "type": "Scene",
-      "name": "scene--linitiation-de-velar",
-      "path": "packs/scene--linitiation-de-velar.db",
+      "name": "scene--in-sole-veritas",
+      "path": "packs/scene--in-sole-veritas.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
