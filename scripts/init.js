@@ -15,6 +15,8 @@ CONFIG.DND5E.spellSchools.ASolaire = "Aura Solaire";
 CONFIG.DND5E.spellSchools.Helios = "Fils d'Hélios";
 CONFIG.DND5E.spellSchools.Element = "Dragon des éléments";
 CONFIG.DND5E.spellSchools.Metamorphose = "Métamorphose du Dragon";
+CONFIG.DND5E.spellSchools.Splendeur = "Splendeur du Lion";
+CONFIG.DND5E.spellSchools.Royaume = "Protection du royaume";
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
