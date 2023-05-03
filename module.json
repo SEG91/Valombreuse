@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.3.3",
+  "version": "1.3.4",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -33,7 +33,7 @@
     {
       "name": "aptitudes-speciales-valombreuse",
       "system": "dnd5e",
-      "label": "Aptitudes Speciales (Valombreuse)",
+      "label": "Aptitudes Spéciales (Valombreuse)",
       "path": "packs/aptitudes-speciales-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -60,7 +60,7 @@
     {
       "name": "lignee-valombreuse",
       "system": "dnd5e",
-      "label": "Lignee (Valombreuse)",
+      "label": "Lignée (Valombreuse)",
       "path": "packs/lignee-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -78,7 +78,7 @@
     {
       "name": "pretires-valombreuse",
       "system": "dnd5e",
-      "label": "Pretires (Valombreuse)",
+      "label": "Prétirés (Valombreuse)",
       "path": "packs/pretires-valombreuse.db",
       "type": "Actor",
       "private": false,
@@ -96,8 +96,17 @@
     {
       "name": "capacite-de-creatures-valombreuse",
       "system": "dnd5e",
-      "label": "Capacite de creatures (Valombreuse)",
+      "label": "Capacité de creatures (Valombreuse)",
       "path": "packs/capacite-de-creatures-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "capacite-des-sang-impurs-valombreuse",
+      "system": "dnd5e",
+      "label": "Capacité des Sang Impurs (Valombreuse)",
+      "path": "packs/capacite-des-sang-impurs-valombreuse.db",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -105,7 +114,7 @@
     {
       "name": "systemes-de-lingenieur-valombreuse",
       "system": "dnd5e",
-      "label": "Systemes de l'Ingenieur (Valombreuse)",
+      "label": "Systemes de l'Ingénieur (Valombreuse)",
       "path": "packs/systemes-de-lingenieur-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -114,7 +123,7 @@
     {
       "name": "creatures-de-lingenieur-valombreuse",
       "system": "dnd5e",
-      "label": "Creatures de l'Ingenieur (Valombreuse)",
+      "label": "Creatures de l'Ingénieur (Valombreuse)",
       "path": "packs/creatures-de-lingenieur-valombreuse.db",
       "type": "Actor",
       "private": false,
@@ -123,7 +132,7 @@
     {
       "name": "inventions-valombreuse",
       "system": "dnd5e",
-      "label": "Inventions de l'Ingenieur (Valombreuse)",
+      "label": "Inventions de l'Ingénieur (Valombreuse)",
       "path": "packs/inventions-valombreuse.db",
       "type": "Item",
       "private": false,
