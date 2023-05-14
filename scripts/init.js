@@ -39,12 +39,39 @@ Hooks.on("renderActorSheet", DebugDisplay);*/
 
 function UpdateActorResourceName(actor, data, options, userId) {
 //do my things here
-console.trace();
-actor.system.resources.primary.label="Sang Ancien";
-actor.system.resources.primary.max=(actor.system.abilities.int.value -1)*actor.details.level;
+//console.trace();
+if (actor.details!=null){
+	actor.system.resources.primary.label="Sang Ancien";
+	actor.system.resources.primary.max=(actor.system.abilities.int.value -1)*actor.details.level;
+	}
 };
 
 Hooks.on('updateActor', UpdateActorResourceName);
+
+function CardDealed(from, to, action) {
+//do my things here
+console.trace();
+  if(action.action === "deal"){
+    action.toCreate.forEach(function(c,i){
+      console.log("dealCards>>deal>>");
+      console.log(c[i].name);
+    });
+  }
+};
+
+Hooks.on("dealCards", CardDealed);
+
+  Hooks.on("createCard", function(target) {
+      //if(!!target && !!target.parent && (!!t.currentCards && (target.parent._id ? target.parent._id : target.parent.data._id) == (t.currentCards._id ? t.currentCards._id : t.currentCards.data._id))){
+        //t.update();
+      //}
+	  const nb=Math.floor(Math.random() * 1000);
+	  console.log(nb);
+	  if (nb>499){
+	      target.flip();
+	  };
+    });
+
 
 //function declaration (same context) the argument are declared in the same order as the original call
 
