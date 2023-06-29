@@ -17,6 +17,8 @@ CONFIG.DND5E.spellSchools.Element = "Dragon des éléments";
 CONFIG.DND5E.spellSchools.Metamorphose = "Métamorphose du Dragon";
 CONFIG.DND5E.spellSchools.Splendeur = "Splendeur du Lion";
 CONFIG.DND5E.spellSchools.Royaume = "Protection du royaume";
+CONFIG.DND5E.spellSchools.FeuPhenix = "Feu du Phénix";
+CONFIG.DND5E.spellSchools.Renaissance = "Renaissance du Phénix";
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
