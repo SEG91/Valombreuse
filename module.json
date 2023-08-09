@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.5.9.8",
+  "version": "1.6.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -148,7 +148,7 @@
       "flags": {}
     },
     {
-      "label": "In Sole Veritas",
+      "label": "Sub Sole Veritas",
       "type": "JournalEntry",
       "name": "In-sole-veritas",
       "path": "packs/in-sole-veritas.db",
@@ -157,7 +157,7 @@
       "flags": {}
     },
     {
-      "label": "Scène : In Sole Veritas",
+      "label": "Scène : Sub Sole Veritas",
       "type": "Scene",
       "name": "scene--in-sole-veritas",
       "path": "packs/scene--in-sole-veritas.db",
