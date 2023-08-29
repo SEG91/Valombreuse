@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.6.1",
+  "version": "1.6.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -188,6 +188,15 @@
       "type": "Item",
       "name": "objets-valombreuse",
       "path": "packs/objets-valombreuse.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Serviteurs du Noble(Valombreuse)",
+      "type": "Actor",
+      "name": "serviteurs-du-noble",
+      "path": "packs/serviteurs-du-noble.db",
       "system": "dnd5e",
       "private": false,
       "flags": {}
